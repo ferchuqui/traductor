@@ -1,0 +1,17 @@
+{
+  "name": "traductor",
+  "version": "1.0.0",
+  "description": "A Traductor ",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/translate": "^4.1.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "luis fernando farji <fernando.farji@gmail.com>",
+  "license": "MIT"
+}
