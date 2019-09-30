@@ -20,7 +20,13 @@
       method: "POST",
       body: JSON.stringify({
         text: original.value 
-      })
+      }),
+      headers:{
+        'Content-Type': 'application/json'
+      }
+    }).then((res)=> res.json())
+    .then((variable)=>{
+      console.log(variable)
     })
   }
   original.addEventListener('keyup', validate )
