@@ -1,4 +1,25 @@
 * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   margin: 0;
-  box-sizing: border-box
+}
+.container {
+  background-color: darkslategrey;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  justify-content: space-around;
+  width: 100vw;
+
+}
+.original {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.traduced {
+  color: white;
+  margin-top: 30px;
 }
